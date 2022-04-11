@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  
+    
+}
+:root{
+  --fontpadrao:Verdana, Geneva, Tahoma, sans-serif Sans-Serif;
+  --font1:"Passion One", cursive;
+  --font2:'Sriracha', cursive;
+}
+
+body{
+  background-color: white;
+  font-family: var(--fontpadrao);
+  min-height: 100vh;
+
+}
+
+
+header{
+  background-color:black;
+  max-width:100%;
+  text-align: center;
+  color:white;
+  padding-top: 100px;
+  
+}
+h1{
+
+  font-family:var(--font1);
+  font-variant: small-caps;/*Coloca todas as letras maiúsculas n gritante*/
+  font-size:10vw;
+}
+header > p{
+  font-family: var(--fontpadrao);
+  padding-bottom: 100px;
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+
+  
+}
+header > p > a:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-family:var(--font2);
+
+}
+
+section.branco, section.box1, section.box2{
+  font-size:1em;
+  padding-top: 10vh; /*Os paragráfos terão 10% de altura da da viewport. */
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2.5;
+  font-size: 2.5vw;
+  
+}
+section.branco :first-child{
+ margin-bottom: 10vh;
+
+}
+  
+section.box1 {
+  background-color: lightgray;
+  background-image: url("imagens/background001.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom ;
+  color: white;
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.243);  
+} 
+section.box2{
+  background-color: lightgray;
+  background-image: url("imagens/background002.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom ;
+  color: white;
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.243);  
+
+}
+section.box1  p, section.box2  p{
+  display: inline-block;
+  background-color: rgba(0, 0, 0,0.5);
+  padding: 5px;
+  text-shadow: 1px 1px 0px black;
+
+}
+
+
+
+footer{
+background-color: black;
+padding: 10px;
+margin-top: 10%;
+}
+footer  p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+div.video{
+  background-color: black;
+  position: relative;
+  padding: 10px;
+  padding-bottom: 50%;
+
+
+
+
+  
+}
+iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+
+  
+
+
+}
